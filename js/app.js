@@ -8,5 +8,5 @@ const displayQuotes = quote => {
     // console.log(quote);
     const quoteElement = document.getElementById('quote');
     const quotes = quote.quote;
-    quoteElement.innerHTML = `“ ${quotes} ”`;
+    quoteElement.innerHTML = `“ ${quotes} ”  `;
 }
